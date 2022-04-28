@@ -1,0 +1,49 @@
+body {
+		text-align: center;
+		background-color: #98FB98
+}
+h1 {
+	color: green;
+	font-size: 200%
+}
+button {
+	color: #98FB98;
+	border: solid 1px #98FB98;
+	border-radius: 8px;
+	background-color: green;
+	margin: 15px 0 15px 0;
+}
+.titulo {
+	font-family: "Courier New", monospace;
+	font-size: 300%;
+}
+
+.enunciado {
+	width: 530px;
+	height: 1.5%;
+	background-color: green;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.operação {
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 520px;
+	border: solid 5px green;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+}
+
+input {
+	margin-bottom: 10px;
+}
+
+.input_bhaskara {
+	margin-top: 25px;
+	width: 25%;
+}

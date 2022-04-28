@@ -1,0 +1,71 @@
+<html>
+    <title>Pheasycs</title>
+    <head>
+        <script defer src= "Pheasycs.js"></script>
+		<link rel='stylesheet' href='pheasycsstyle.css'>
+    </head>
+	<body>
+	    <br>
+		<br>
+		<br>
+	    <h1 class='titulo'>Pheasycs</h1>
+		<br>
+		<h3>Operações:</h3>
+		<br>
+		<div class='enunciado'>
+		<h4>Bhaskara</h4>
+		</div>
+		<div class='operação'>
+		<input type='text' placeholder='A' id='baka_a' class='input_bhaskara'></input>
+		<input type='text' placeholder='B' id='baka_b' class='input_bhaskara'></input>
+		<input type='text' placeholder='C' id='baka_c' class='input_bhaskara'></input> 
+		<br>
+		<button onclick="writeBhaskara(numeros)">Resolver</button>
+		<br>
+		<p id='equação'></p>
+		<br>
+		<p id='bhaskaraResult'></p>
+		</div>
+		<br>
+		<div class='enunciado'>
+		<h4>DVT</h4>
+		</div>
+		<div class='operação'>
+		<h5>Incógnita:</h5>
+		<button id='buttonvelocidade' onclick="dvtvariable = 'v', changePlaceholders('dvt')">Velocidade</button>
+		<button id='buttontempo' onclick="dvtvariable = 't', changePlaceholders('dvt')">Tempo</button>
+		<button id='buttonespaço' onclick="dvtvariable = 'e', changePlaceholders('dvt')">Espaço</button>
+		<br>
+		<br>
+		<input type='text' id='dvtcomp1' name='dvtcomp1' placeholder = 'Espaço'></input>
+		<input type='text' id='dvtcomp2' name='dvtcomp2' placeholder = 'Tempo'></input>
+		<br>
+		<br>
+		<button onclick="doDVT(dvtvariable)">Resolver</button>
+		<br>
+		<br>
+		<p id='dvtresult'></p>
+		</div>
+		<br>
+		<br>
+		<div class='enunciado'>
+		<h4>Aceleração Simples</h4>
+		</div>
+		<div class='operação'>
+		<h5>Incógnita:</h5>
+		<button id='buttonaceleração' onclick="asimplesvariable = 'a', changePlaceholders('as')">Aceleração</button>
+		<button id='buttontempo' onclick="asimplesvariable = 't', changePlaceholders('as')">Tempo</button>
+		<button id='buttonvelocidade' onclick="asimplesvariable = 'v', changePlaceholders('as')">Velocidade</button>
+		<br>
+		<br>
+		<input type='text' id='ascomp1' name='ascomp1' placeholder = 'Velocidade'></input>
+		<input type='text' id='ascomp2' name='ascomp2' placeholder = 'Tempo'></input>
+		<br>
+		<br>
+		<button onclick="doAS(asimplesvariable)">Resolver</button>
+		<br>
+		<br>
+		<p id='asresult'></p>
+		</div>
+	</body>
+</html>
